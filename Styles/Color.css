@@ -1,0 +1,13 @@
+:root{
+    /* Color */
+    --Body-color: #f8fafc;
+    --Navbar-color: #d9eafd;
+    --Heading-color: #bcccdc;
+    --Text-color: #9aa6b2;
+
+    /* Font */
+  --Hero-font: "DM Serif Display", serif;
+  --paragraph-font: "Playfair", serif;
+  --Navbar-font: "Lora", serif;
+  --Footer-font:"Oxygen", serif;
+}

@@ -1,0 +1,48 @@
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Navbar-color);
+}
+
+.Gym{
+    width: 60%;
+}
+
+.navBtn > ol, li{
+    display: flex;
+    margin: 10px;
+    font-family: var(--Hero-font);
+    color: var(--Text-color);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.samp{
+    border: 1px solid var(--Text-color);
+}
+
+
+/* Main content */
+
+.horeHeading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 30px;
+    align-items: center;
+    line-height: 2;
+}
+
+.textNote > h1{
+    color: var(--Text-color);
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: var(--Hero-font);
+}
+
+.Bg{
+    background-color: var(--Text-color);
+    margin-block: 30px ;
+}
+
+/* work on the Gym Section */
