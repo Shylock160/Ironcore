@@ -46,3 +46,50 @@ header > nav{
 }
 
 /* work on the Gym Section */
+.workOutSection, figure{
+    display: flex;
+    margin: 10px;
+    line-height: 2;
+    font-size: 18px;
+    font-family: var(--Navbar-font);
+}
+
+figcaption{
+    padding: 20px;
+}
+
+.workOutSection img{
+    width: 844px;
+    height: 257px;
+}
+
+figure{
+    background-color: var(--Heading-color);
+}
+
+figcaption > div{
+    background-color: white;
+    text-align: center;
+}
+
+figcaption > div a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+footer{
+    background-color: var(--Navbar-color);
+}
+
+.footerLink{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 20px;
+    font-family: var( --Footer-font);
+}
+
+.Link{
+    
+}
