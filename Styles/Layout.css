@@ -22,6 +22,20 @@ header > nav{
     border: 1px solid var(--Text-color);
 }
 
+a{
+    text-decoration: none;
+    color: var(--Text-color);
+}
+
+ol li a:hover{
+    color: black;
+}
+
+.samp:hover, .samp a:hover{
+    color: black;
+    background: rgb(217,234,253);
+    background: radial-gradient(circle, rgba(217,234,253,1) 10%, rgba(154,166,178,1) 35%);
+}
 
 /* Main content */
 
@@ -52,10 +66,11 @@ header > nav{
     line-height: 2;
     font-size: 18px;
     font-family: var(--Navbar-font);
+    
 }
 
 figcaption{
-    padding: 20px;
+    padding: 5px 20px 0 20px;
 }
 
 .workOutSection img{
@@ -89,7 +104,22 @@ footer{
     padding-block: 20px;
     font-family: var( --Footer-font);
 }
-
-.Link{
-    
+.textLink{
+    align-self: center;
 }
+
+.link{
+    border: 2px solid var(--Text-color);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.link > a{
+   text-decoration: none;
+   color: black;
+}
+
+.link:hover{
+    background-color: var(--Text-color);
+}
+
