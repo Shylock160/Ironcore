@@ -1,0 +1,19 @@
+/* Mobile Design */
+@media screen and (max-width: 37.5rem) {
+    .horeHeading{
+        flex-direction: column;
+        margin-inline: 0;
+    }
+
+    .workOutSection, figure{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Tablet Design */
+@media screen and (min-width: 48rem) and (max-width: 62rem) {
+    figure{
+        display: block;
+    }
+}

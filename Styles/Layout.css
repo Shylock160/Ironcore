@@ -65,8 +65,7 @@ ol li a:hover{
     margin: 10px;
     line-height: 2;
     font-size: 18px;
-    font-family: var(--Navbar-font);
-    
+    font-family: var(--Navbar-font); 
 }
 
 figcaption{
@@ -80,6 +79,7 @@ figcaption{
 
 figure{
     background-color: var(--Heading-color);
+    
 }
 
 figcaption > div{
