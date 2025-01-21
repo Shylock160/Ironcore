@@ -68,7 +68,7 @@ ol li a:hover{
     font-family: var(--Navbar-font); 
 }
 
-figcaption{
+.workOutSection figure > figcaption{
     padding: 5px 20px 0 20px;
 }
 
@@ -77,7 +77,7 @@ figcaption{
     height: 257px;
 }
 
-figure{
+.workOutSection figure{
     background-color: var(--Heading-color);
     
 }
@@ -121,5 +121,28 @@ footer{
 
 .link:hover{
     background-color: var(--Text-color);
+}
+
+/* Info section */
+.info figure{
+    display: flex;
+    background-color: var(--Heading-color);
+    justify-content: space-between;
+}
+
+.info figcaption{
+    padding: 1.5rem;
+    line-height: 3;
+}
+
+.info figure img{
+    width: 40%;
+}
+
+/* Teams section */
+.Teams{
+    margin-block: 20px;
+    text-align: center;
+    font-size: 2rem;
 }
 
