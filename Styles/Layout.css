@@ -146,3 +146,20 @@ footer{
     font-size: 2rem;
 }
 
+.teamsTrainer{
+    display: flex;
+}
+
+.teamsTrainer > div{
+    margin: 10px;
+}
+
+.teamsTrainer > div > img{
+    border-radius: 20px;
+}
+
+.teamsTrainer > div > h3{
+    text-align: center;
+    margin-top: 5px;
+}
+
