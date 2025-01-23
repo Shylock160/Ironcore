@@ -9,6 +9,16 @@
         flex-wrap: wrap;
     }
 
+    /* Info-section */
+    .info figure img{
+        width: 100%;
+    }
+
+    .changeLayout{
+        flex-direction: column-reverse;
+    }
+    
+
 }
 
 /* Tablet Design */

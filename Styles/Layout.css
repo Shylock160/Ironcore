@@ -146,6 +146,10 @@ footer{
     font-size: 2rem;
 }
 
+.ourTeams{
+    margin-bottom: 20px;
+}
+
 .teamsTrainer{
     display: flex;
 }
