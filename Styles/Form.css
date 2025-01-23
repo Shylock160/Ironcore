@@ -1,17 +1,31 @@
-.banner{
-    width: 100%;
-    height: 100vh;
+.bannar{
     background-image: url(/Images/from.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
 }
 
-.formBody{
-    align-self: center;
-    background-color: var(--Body-color);
-    height: 480px;
+.formBox{
     width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background: var( --Body-color);
+}
+
+.buttonBox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px var(--Heading-color);
+    border-radius: 30px;
+}
+
+.buttonBox > button{
+    background: transparent;
+    border: none;
 }
