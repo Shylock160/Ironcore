@@ -1,3 +1,8 @@
+.inputGroup *{
+    text-transform: none;
+}
+
+
 .bannar{
     background-image: url(/Images/from.jpg);
     background-size: cover;
@@ -28,4 +33,51 @@
 .buttonBox > button{
     background: transparent;
     border: none;
+    margin: 10px 20px 10px 40px;
+    position: relative;
+
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background-color: var(--Heading-color);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.inputGroup{
+    margin-left: 20px;
+}
+
+.inputGroup label{
+    font-size: 2rem;
+}
+
+.inputField{
+    margin-bottom: 20px;
+    width: 80%;
+    border: 2px solid var(--Navbar-color);
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.submitBtn{
+    background-color: var(--Heading-color);
+    margin-block: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 330px;
+    font-size: 1.5rem;
+    font-family: var(--Hero-font);
+    cursor: pointer;
+}
+
+.user{
+    margin-left: 90px;
 }

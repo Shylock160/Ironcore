@@ -33,13 +33,24 @@
   </header>
 
   <main> 
-    <section>
+    <section id="formBoxSection">
         <div class="bannar">
             <div class="formBox">
                 <div class="buttonBox">
+                  <div id="btn"></div>
                     <button class="logIn" type="button">login</button>
                     <button class="signUp" type="button">sign up</button>
                 </div>
+
+                <form action="#" class="inputGroup">
+                  <label for="email">Email</label><br>
+                  <input type="email" class="inputField" placeholder="Email" required><br>
+                  <label for="password">Password</label><br>
+                  <input type="password" class="inputField" placeholder="Password" required><br>
+                  <input type="checkbox" class="chechBox"> <span>Remember password</span><br>
+                  <button type="submit" class="submitBtn">Sign up / Login</button><br>
+                  <p class="user">Already a user?<a href="#">Login</a></p>
+                </form>
             </div>
         </div>
     </section>
