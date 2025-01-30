@@ -20,6 +20,7 @@
     margin: 6% auto;
     padding: 5px;
     background: var( --Body-color);
+    overflow: hidden;
 }
 
 .buttonBox{
@@ -51,6 +52,7 @@
 
 .inputGroup{
     margin-left: 20px;
+    position: absolute;
 }
 
 .inputGroup label{
@@ -80,4 +82,9 @@
 
 .user{
     margin-left: 90px;
+}
+
+
+#signUp{
+    left: 400px;
 }
