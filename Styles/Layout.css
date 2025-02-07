@@ -167,3 +167,43 @@ footer{
     margin-top: 5px;
 }
 
+.service{
+    background-image: url(/Images/Bannar.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 190vh;
+    width: 100%;
+}
+
+.service h1{
+    padding-block: 80px 0;
+    color: var(--Heading-color);
+    text-align: center;
+}
+
+.service h2{
+    padding-block: 20px 70px;
+}
+
+.service  div{
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.cta{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-around;
+    row-gap: 20px;
+    
+}
+
+.cta > div{
+    background-color: var(--Heading-color);  
+}
+
+.icon-logo{
+    width: 2rem;
+    margin: 0 auto;
+}

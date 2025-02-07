@@ -1,5 +1,5 @@
 /* Mobile Design */
-@media screen and (max-width: 37.5rem) {
+@media screen and (max-width: 22.5rem) {
     .horeHeading{
         flex-direction: column;
         margin-inline: 0;
@@ -17,13 +17,33 @@
     .changeLayout{
         flex-direction: column-reverse;
     }
+
+    .teamsTrainer{
+        flex-direction: column;
+    }
     
 
 }
+
 
 /* Tablet Design */
 @media screen and (min-width: 48rem) and (max-width: 62rem) {
     figure{
         display: block;
+    }
+}
+
+/* Mobile Design for Sarvices */
+@media screen and (max-width: 22.5rem) {
+    .cta{
+        grid-template-columns: 300px;
+    }
+
+}
+
+/* Tablet Design for Sarvices */
+@media screen and (min-width: 48rem) and (max-width: 62rem) {
+    .cta{
+        grid-template-columns:repeat(2, 300px);
     }
 }
